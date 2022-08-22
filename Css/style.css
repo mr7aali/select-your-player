@@ -33,8 +33,19 @@ header{
     padding: 28px 50px;
     padding-bottom: 246px;
 }
-
-
+/*------------ header_------------- end */
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 120px;
+   
+}
+.player-container{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
 article{
     width: 264px;
     height: 371px;
@@ -63,8 +74,62 @@ article{
     padding: 10px;
     display: block;
     margin: 25px auto 21px auto;
-    background-color: #A2A9AF;
+    background-color: #015196;
     font-size: 16px;
     color: white;
     border-radius: 5px ;
+}
+
+/*----------- select player -----------------*/
+
+.select-player {
+    background-color: #000000;
+    width: 264px;
+    height: 371px;
+    
+}
+.select-player h1{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 24px;
+
+}
+.budget{
+    background-color: #000000;
+    width: 264px;
+    height:514px ;
+    margin-top: 25px;
+   
+}
+.budget h1{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 28px;
+}
+.budget p{
+    color: #AFAFAF;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 22px;
+}
+.budget input{
+    width: 121px;
+    height: 42px;
+    background-color: #000000;
+    border: 1px solid white;
+    margin-right: 22px;
+    margin-top: 12px; 
+
+}
+.budget input[type=text]{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.expenses{
+  color: white;
+  margin-left: 24px;
 }
