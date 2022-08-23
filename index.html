@@ -10,6 +10,8 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
     <!---------- Css--------- -->
     <link rel="stylesheet" href="Css/style.css">
+    <!-- media -->
+    <link rel="stylesheet" href="Css/media.css">
 </head>
 
 <body>
@@ -17,11 +19,8 @@
     <section class="full-body">
         <header>
             <div class="blog">
-                <h1 class="heading">Select Your Best 5</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ea id laudantium tempore cupiditate
-                    ratione nam amet facere quia doloremque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                    vitae, debitis animi sint voluptatibus dolorem, totam amet facilis aut, ipsa incidunt? Soluta id
-                    autem molestiae, corrupti explicabo quibusdam possimus nisi!</p>
+                <h1 class="heading">Choice Best 5 player</h1>
+                <p>veryone has their own favorite game, I have one of mine. My favorite game is Hockey. When I was seven years old, I started playing hockey with my elder brother. There are three professional hockey players in my family, that’s why hockey has been the first choice for me.</p>
             </div>
         </header>
 
@@ -210,21 +209,31 @@
                     <p id="error"> Maximum 5 </p>
                 </div>
                 <div class="budget">
-                    <h1>Budget</h1>
-                    <p> Per Player </p> <input id="per-player-cost" type="text">
-                    <button id="calculate" class="btn"> Calculate </button>
+                    <div>
 
+
+                    <h1>Budget</h1>
+                    <p> Per Player </p> <input id="per-player-cost" type="text" placeholder="Enter Amount">
+                    <button id="calculate" class="btn"> Calculate </button>
                     <p>Player Expenses <span class="expenses">$ <span id="totalAmount"> 00</span></span></p>
-                    <p>Manager </p> <input id="manager" type="text">
-                    <p>Coach </p> <input id="coach" style="margin-left: 19px;" type="text">
+
+                   </div>
+                    <div>
+                    <p>Manager </p> <input id="manager" type="text" placeholder="Enter Amount">
+                    <p>Coach </p> <input id="coach" style="margin-left: 19px;" type="text" placeholder="Enter Amount">
 
                     <button id="calculate1" class="btn"> Calculate </button>
-                    <p>Total $<span id="totalCost" class="expenses">00</span></p>
-
+                    <p>Total <span id="totalCost" class="expenses">00  </span>$</p>
+                </div>
                 </div>
 
             </aside>
         </main>
+
+     <hr>
+ 
+     <p class="bottom">Copyright @ 2022 All Rights Reserved.</p>
+
     </section>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
     <script src="Js/newJs.js"></script>

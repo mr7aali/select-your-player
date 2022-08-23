@@ -29,6 +29,11 @@ selectName(document.getElementById('playerName' + n),document.getElementById('pl
 
 
 document.getElementById('calculate').addEventListener('click',function(){
+            
+             if(tem===6){
+               tem--;
+             }
+     
                   let perPlayerFee = document.getElementById('per-player-cost').value;
                   const matchFee =parseInt(perPlayerFee);
                   let playerExpence = matchFee * tem; 
