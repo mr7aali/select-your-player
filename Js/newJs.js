@@ -1,5 +1,8 @@
+let tem=0;
 function selectName(Name,Button){
-   Button.addEventListener('click',function(){ 
+
+
+     Button.addEventListener('click',function(){ 
      listNode = document.getElementById('list');
      liNode = document.createElement("LI");
      textNode = document.createTextNode(Name.innerText);
@@ -7,21 +10,24 @@ function selectName(Name,Button){
      listNode.appendChild(liNode);  
      Button.disabled = 'true';
      Button.style.background = 'gray';
+     
+     tem++;
+     
+     if(tem>=6){
+        liNode.remove();
+        Button.style.background = '#015196';
+        alert("You cant add more than 5 Players");
+        console.log(tem);
+     }
    })
 }
+for(let n=1;n<13;n++){
+selectName(document.getElementById('playerName' + n),document.getElementById('player'+n));
+}
 
-selectName(document.getElementById('playerName1'),document.getElementById('player1'));
-selectName(document.getElementById('playerName2'),document.getElementById('player2'));
-selectName(document.getElementById('playerName3'),document.getElementById('player3'));
-selectName(document.getElementById('playerName4'),document.getElementById('player4'));
-selectName(document.getElementById('playerName5'),document.getElementById('player5'));
-selectName(document.getElementById('playerName6'),document.getElementById('player6'));
-selectName(document.getElementById('playerName7'),document.getElementById('player7'));
-selectName(document.getElementById('playerName8'),document.getElementById('player8'));
-selectName(document.getElementById('playerName9'),document.getElementById('player9'));
-selectName(document.getElementById('playerName10'),document.getElementById('player10'));
-selectName(document.getElementById('playerName11'),document.getElementById('player11'));
-selectName(document.getElementById('playerName12'),document.getElementById('player12'));
+
+
+
 
 
 
