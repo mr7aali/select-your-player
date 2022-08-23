@@ -1,34 +1,192 @@
-let len = document.querySelectorAll('.btn-1').length;
+document.getElementById('player1').addEventListener('click',function(){
 
-const selectedName=[];
-let tem=0;
-
-    for(let i =0; i<len; i++){
-        document.querySelectorAll('.btn-1')[i].addEventListener('click',function(){
-            const getNameElement = document.querySelectorAll('.player-name')[i];
-            const getName = getNameElement.innerText;
-            selectedName.push(getName);
-    
-      
+    const getNameElement =document.getElementById('playerName1');
+    const getName = getNameElement.innerText;
+     listNode = document.getElementById('list');
+     liNode = document.createElement("LI");
+     textNode = document.createTextNode(getName);
+     liNode.appendChild(textNode);
+     listNode.appendChild(liNode);
 
 
-            listNode = document.getElementById('list');
-            liNode = document.createElement("LI");
-            textNode = document.createTextNode(getName);
-            liNode.appendChild(textNode);
-            listNode.appendChild(liNode); 
+     let btn = document.getElementById('player1');
+     btn.disabled = 'true';
+     btn.style.background = 'gray';
+
+});
+document.getElementById('player1').addEventListener('click',function(){
+
+    const getNameElement =document.getElementById('playerName1');
+    const getName = getNameElement.innerText;
+     listNode = document.getElementById('list');
+     liNode = document.createElement("LI");
+     textNode = document.createTextNode(getName);
+     liNode.appendChild(textNode);
+     listNode.appendChild(liNode);
 
 
-          
-          
-          
+     let btn = document.getElementById('player1');
+     btn.disabled = 'true';
+     btn.style.background = 'gray';
 
-          });
-          tem++;
-          console.log(tem);
-         
-       }
+});
+document.getElementById('player1').addEventListener('click',function(){
 
-  
-                                                 
+    const getNameElement =document.getElementById('playerName1');
+    const getName = getNameElement.innerText;
+     listNode = document.getElementById('list');
+     liNode = document.createElement("LI");
+     textNode = document.createTextNode(getName);
+     liNode.appendChild(textNode);
+     listNode.appendChild(liNode);
 
+
+     let btn = document.getElementById('player1');
+     btn.disabled = 'true';
+     btn.style.background = 'gray';
+
+});
+document.getElementById('player1').addEventListener('click',function(){
+
+    const getNameElement =document.getElementById('playerName1');
+    const getName = getNameElement.innerText;
+     listNode = document.getElementById('list');
+     liNode = document.createElement("LI");
+     textNode = document.createTextNode(getName);
+     liNode.appendChild(textNode);
+     listNode.appendChild(liNode);
+
+
+     let btn = document.getElementById('player1');
+     btn.disabled = 'true';
+     btn.style.background = 'gray';
+
+});
+document.getElementById('player1').addEventListener('click',function(){
+
+    const getNameElement =document.getElementById('playerName1');
+    const getName = getNameElement.innerText;
+     listNode = document.getElementById('list');
+     liNode = document.createElement("LI");
+     textNode = document.createTextNode(getName);
+     liNode.appendChild(textNode);
+     listNode.appendChild(liNode);
+
+
+     let btn = document.getElementById('player1');
+     btn.disabled = 'true';
+     btn.style.background = 'gray';
+
+});
+document.getElementById('player1').addEventListener('click',function(){
+
+    const getNameElement =document.getElementById('playerName1');
+    const getName = getNameElement.innerText;
+     listNode = document.getElementById('list');
+     liNode = document.createElement("LI");
+     textNode = document.createTextNode(getName);
+     liNode.appendChild(textNode);
+     listNode.appendChild(liNode);
+
+
+     let btn = document.getElementById('player1');
+     btn.disabled = 'true';
+     btn.style.background = 'gray';
+
+});
+document.getElementById('player1').addEventListener('click',function(){
+
+    const getNameElement =document.getElementById('playerName1');
+    const getName = getNameElement.innerText;
+     listNode = document.getElementById('list');
+     liNode = document.createElement("LI");
+     textNode = document.createTextNode(getName);
+     liNode.appendChild(textNode);
+     listNode.appendChild(liNode);
+
+
+     let btn = document.getElementById('player1');
+     btn.disabled = 'true';
+     btn.style.background = 'gray';
+
+});
+document.getElementById('player1').addEventListener('click',function(){
+
+    const getNameElement =document.getElementById('playerName1');
+    const getName = getNameElement.innerText;
+     listNode = document.getElementById('list');
+     liNode = document.createElement("LI");
+     textNode = document.createTextNode(getName);
+     liNode.appendChild(textNode);
+     listNode.appendChild(liNode);
+
+
+     let btn = document.getElementById('player1');
+     btn.disabled = 'true';
+     btn.style.background = 'gray';
+
+});
+document.getElementById('player1').addEventListener('click',function(){
+
+    const getNameElement =document.getElementById('playerName1');
+    const getName = getNameElement.innerText;
+     listNode = document.getElementById('list');
+     liNode = document.createElement("LI");
+     textNode = document.createTextNode(getName);
+     liNode.appendChild(textNode);
+     listNode.appendChild(liNode);
+
+
+     let btn = document.getElementById('player1');
+     btn.disabled = 'true';
+     btn.style.background = 'gray';
+
+});
+document.getElementById('player1').addEventListener('click',function(){
+
+    const getNameElement =document.getElementById('playerName1');
+    const getName = getNameElement.innerText;
+     listNode = document.getElementById('list');
+     liNode = document.createElement("LI");
+     textNode = document.createTextNode(getName);
+     liNode.appendChild(textNode);
+     listNode.appendChild(liNode);
+
+
+     let btn = document.getElementById('player1');
+     btn.disabled = 'true';
+     btn.style.background = 'gray';
+
+});
+document.getElementById('player1').addEventListener('click',function(){
+
+    const getNameElement =document.getElementById('playerName1');
+    const getName = getNameElement.innerText;
+     listNode = document.getElementById('list');
+     liNode = document.createElement("LI");
+     textNode = document.createTextNode(getName);
+     liNode.appendChild(textNode);
+     listNode.appendChild(liNode);
+
+
+     let btn = document.getElementById('player1');
+     btn.disabled = 'true';
+     btn.style.background = 'gray';
+
+});
+document.getElementById('player1').addEventListener('click',function(){
+
+    const getNameElement =document.getElementById('playerName1');
+    const getName = getNameElement.innerText;
+     listNode = document.getElementById('list');
+     liNode = document.createElement("LI");
+     textNode = document.createTextNode(getName);
+     liNode.appendChild(textNode);
+     listNode.appendChild(liNode);
+
+
+     let btn = document.getElementById('player1');
+     btn.disabled = 'true';
+     btn.style.background = 'gray';
+
+});
