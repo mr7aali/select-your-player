@@ -17,7 +17,7 @@ function selectName(Name,Button){
         Button.style.background = '#015196';
         console.log(tem);
         document.getElementById('error').style.display='block';
-        alert("You cant add more than 5 Players");
+        alert("You can't add more than 5 Players");
 
      }
    })
@@ -30,8 +30,8 @@ selectName(document.getElementById('playerName' + n),document.getElementById('pl
 
 document.getElementById('calculate').addEventListener('click',function(){
             
-             if(tem===6){
-               tem--;
+             if(tem>5){
+               tem=5;
              }
      
                   let perPlayerFee = document.getElementById('per-player-cost').value;
@@ -54,8 +54,6 @@ document.getElementById('calculate1').addEventListener('click',function(){
 
             document.getElementById('totalCost').innerText = totalCost ;
             
-
-
 })
 
 

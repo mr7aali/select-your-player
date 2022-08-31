@@ -1,17 +1,11 @@
 @media only screen and (max-width:1399px) {
-    body{
-        background-color: red;
-
-    }
+   
     main{
         flex-direction: column-reverse;
     }
-    /* aside{
-        display: flex;
-        border:  1px solid red;
-    } */
+    
     aside{
-        border: 1px solid red;
+        
         margin-bottom: 30px;
         display: flex;
         align-items: center;
@@ -36,6 +30,12 @@
     .player-container{
         grid-template-columns: 1fr;
     }
+
+
+}
+
+
+
     @media only screen and (max-width:576px){
         .heading{
             font-size: 30px;
@@ -46,6 +46,8 @@
         .player-container{
             margin: 0 auto;
         }
+        main{
+            margin: 30px auto;
+        }
     }
     
-}
