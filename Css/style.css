@@ -50,7 +50,7 @@ main{
 article{
     width: 264px;
     height: 371px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     background-color: black ;
 }
 .image{
